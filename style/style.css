@@ -1,0 +1,89 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+body{
+  background: #000;
+ }
+ .secound {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-right: 75px;
+}
+/* .secound::before, .secound::after {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: black;
+  display: block;
+  position: absolute;
+}
+
+.secound::after {
+  bottom: 13px;
+}
+.soat, .min, .sek {
+  padding: 10px 15px;
+  background: #fff;
+  color: black;
+  font-size: 25px;
+  margin: 0 10px;
+  border-radius: 6px;
+  height: 45px;
+}   */
+.stopwatch__clock-description, .timer__clock-description {
+  padding: 30px 30px 30px;
+  text-align: center;
+  color: #fff;
+  background: #191d22;
+  border-radius: 6px;
+  text-transform: uppercase;
+  margin: 0px 120px;
+  font-size: 25px;
+} 
+.stopwatch__clock, .timer__screen {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  padding-top: 300px;
+}
+.stopwatch__btn{
+  padding: 10px 15px;
+  background: #fff;
+  border-radius: 30px;
+  border: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #191d22;
+  cursor: pointer;
+  outline: none;
+}
+.start__btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 275px;
+}
+.tabsLink__span {
+  display: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #fff;
+  position: absolute;
+  transition: 0.5s;
+  margin-left: 76%;
+  margin-top: 12%;
+}
+.tabsLink__span.active {
+  display: block;
+}
+.tabsLink__span.active_clear {
+  display: block;
+  background: red;
+}
